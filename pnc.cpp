@@ -8,7 +8,7 @@
 // Probably stack overflow
 // How do you do NodeJS's process.nextTick() here lol
 
-// Not using namespace std be cause why not
+// Not using namespace std because why not
 
 std::chrono::milliseconds initialTime;
 std::string inputNumber;
