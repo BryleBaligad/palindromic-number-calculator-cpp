@@ -8,6 +8,9 @@
 // Probably stack overflow
 // How do you do NodeJS's process.nextTick() here lol
 
+// Increasing stack size makes it not overflow, but now there's a memory leak *somewhere*
+// I have no idea where it's happening
+
 // Not using namespace std because why not
 
 std::chrono::milliseconds initialTime;
